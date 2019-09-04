@@ -8,6 +8,22 @@ At its core, Elements is a simple way to start applicaitons using groovy configu
 
 To learn more about elements, check it out on github here: https://github.com/futehkao/elements
 
+# Quickstart MacOS
+
+```sh
+git clone https://github.com/ScottMacWatters/elements-plugin-samples.git
+cd elements-plugin-samples
+./gradlew runSmDevMain
+```
+
+# Quickstart Windows
+
+```cmd
+git clone https://github.com/ScottMacWatters/elements-plugin-samples.git
+cd elements-plugin-samples
+gradlew.bat runSmDevMain
+```
+
 # Notable Files
 
 This project contains two java classes which are configured and run independently of eachother using Elements. These java classes are:
