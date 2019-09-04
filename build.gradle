@@ -1,0 +1,17 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id "com.macwatters.elements-gradle" version "0.2.3"
+}
+
+ext.elementsVersion = '2.5.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "net.e6tech:elements-common:${elementsVersion}"
+    compile "net.e6tech:elements-web:${elementsVersion}"
+}
